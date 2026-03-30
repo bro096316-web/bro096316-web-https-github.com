@@ -82,6 +82,12 @@ FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/movies_updet')
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/how_to_downlod09/9")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/how_to_downlod09/9")
 
+
+
+# channel and group links
+GRP_LINK = environ.get('GRP_LINK', 'https://t.me/Your_Movie_Link_8')
+CHNL_LINK = environ.get('CHNL_LINK', 'https://t.me/movies_updet')
+
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
